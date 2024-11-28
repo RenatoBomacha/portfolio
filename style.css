@@ -133,3 +133,85 @@ footer {
     font-size: 0.9rem;
     margin-top: 2rem;
 }
+/* Estilo para os ícones de redes sociais */
+.about-container a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.about-container a:hover img {
+    transform: scale(1.1); /* Aumenta o tamanho do ícone ao passar o mouse */
+    filter: brightness(1.2); /* Brilho maior ao passar o mouse */
+}
+
+/* Adicionando um pequeno efeito de borda */
+.about-container a {
+    margin: 0 10px;
+    display: inline-block;
+}
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.portfolio-item {
+    width: 300px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project-info h3 {
+    margin-top: 15px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.project-info p {
+    color: #555;
+    font-size: 1em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
